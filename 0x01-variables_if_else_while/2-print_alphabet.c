@@ -1,25 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - A program that prints the last digit
- * of the number stored in the variable n
+ * main - A program that prints the alphabet in lowercase
+ *
  * Return: 0 (Success)
  */
 int main(void)
 {
-	int n;
-	int x;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	x = n % 10;
-	if (x > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, x);
-	if (x == 0)
-		printf("Last digit of %d is %d and is 0\n", n, x);
-	if (x < 6 && x != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+		}
 	return (0);
 }
