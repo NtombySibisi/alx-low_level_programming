@@ -21,6 +21,6 @@ int main(void)
 			maxf = number / i;
 		}
 	}
-	printf("%d\n", maxf);
+	printf("%ld\n", maxf);
 	return (0);
 }
